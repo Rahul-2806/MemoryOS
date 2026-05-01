@@ -1,0 +1,27 @@
+{
+  "results": {
+    "MemoryOS": {
+      "precision@5": 0.28,
+      "recall@5": 0.8167,
+      "mrr": 0.7111,
+      "avg_latency_ms": 45.49
+    },
+    "BaselineRAG": {
+      "precision@5": 0.28,
+      "recall@5": 0.8444,
+      "mrr": 0.6667,
+      "avg_latency_ms": 10.46
+    }
+  },
+  "gains": {
+    "precision": 0.0,
+    "recall": -3.3,
+    "mrr": 6.7
+  },
+  "query_wins": {
+    "memoryos": 5,
+    "rag": 2,
+    "ties": 8,
+    "total": 15
+  }
+}
